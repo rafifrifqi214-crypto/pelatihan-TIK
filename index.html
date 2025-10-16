@@ -1,20 +1,35 @@
-<DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-       <title>Profil Saya - Rafif </title>
-       <link rel="stylesheet" href="style.CSS">
+  <title>Profil Saya - Rafif</title>
 </head>
-<body>
-       <div class="kartu-profil">
-       <img src="foto_CV_Rafif.jpeg.jpeg">
-       <h1>Rafif Rifqi</h1>
-       <p>Saya Adalah Siswa SMK NEGERI 2 BANGKALAN jurusan Rekayasa Perangkat Lunak (RPL) yang memiliki minat tinggi di bidang pengembangan aplikasi dan desain antarmuka. Terbiasa menggunakan HTML, CSS, dan Python dasar untuk membuat tampilan web sederhana.</p>
-       <p><strong>Email:</strong><br>rafifrifqi214@gmail.com</p>
-      <p><strong>Telepon:</strong><br>081916445399</p>
-      <p><strong>Alamat:</strong><br>Jl. Pangeranan Bangkalan</p>
-       </div>
-  <script src="script.js"></script>
+<body style="font-family: Arial, sans-serif; background-color: #f2f2f2; margin: 0; padding: 0;">
+
+  <div style="max-width: 400px; background-color: white; margin: 50px auto; padding: 20px; text-align: center; border-radius: 20px; box-shadow: 0 4px 10px rgba(0,0,0,0.2);">
+    
+    <img src="foto_CV_Rafif.jpeg.jpeg" alt="Foto Rafif Rifqi" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 15px; border: 3px solid #4CAF50;">
+    
+    <h1 style="color: #333; margin-bottom: 10px;">Rafif Rifqi</h1>
+    
+    <p style="color: #555; font-size: 15px; line-height: 1.5;">
+      Saya adalah siswa SMK NEGERI 2 BANGKALAN jurusan Rekayasa Perangkat Lunak (RPL) yang memiliki minat tinggi di bidang pengembangan aplikasi dan desain antarmuka. Terbiasa menggunakan HTML, CSS, dan Python dasar untuk membuat tampilan web sederhana.
+    </p>
+    
+    <p style="margin: 10px 0;"><strong>Email:</strong><br>rafifrifqi214@gmail.com</p>
+    <p style="margin: 10px 0;"><strong>Telepon:</strong><br>081916445399</p>
+    <p style="margin: 10px 0;"><strong>Alamat:</strong><br>Jl. Pangeranan Bangkalan</p>
+    
+    <button id="sapaButton" style="background-color: #4CAF50; color: white; border: none; padding: 10px 20px; border-radius: 10px; cursor: pointer; font-size: 16px; transition: 0.3s;">
+      Sapa Saya!
+    </button>
+    
+  </div>
+
+  <script>
+    document.getElementById("sapaButton").addEventListener("click", function() {
+      alert("Halo! Saya Rafif Rifqi 😊");
+    });
+  </script>
+
 </body>
-<html>
-  
-       
+</html>
